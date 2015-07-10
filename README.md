@@ -1,17 +1,17 @@
-# hubot-himawari8
+# hubot-himawari8 [![npm version](https://badge.fury.io/js/hubot-himawari8.svg)](http://badge.fury.io/js/hubot-himawari8)
 
 A Hubot script for getting Himawari 8 satellite image via Japan Meteorological Agency
 
 
 ## Install
 
-Add the node package to the hubot dependencies in package.json
+Add the node package to the hubot dependencies in `package.json`
 
 ```bash
 $ npm install hubot-himawari8 --save
 ```
 
-Add hubot-himawari8 to external-scripts.json
+Add hubot-himawari8 to `external-scripts.json`
 
 ```
 ["hubot-himawari8"]
