@@ -20,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/jnst/hubot-himawari8/issues"
   },
-  "homepage": "https://github.com/jnst/hubot-himawari8"
+  "homepage": "https://github.com/jnst/hubot-himawari8",
+  "dependencies": {}
 }

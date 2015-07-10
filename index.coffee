@@ -6,4 +6,4 @@ module.exports = (robot) ->
   Fs.exists path, (exists) ->
     if exists
       for file in Fs.readdirSync(path)
-        robot.loadFile path, filef
+        robot.loadFile path, file
