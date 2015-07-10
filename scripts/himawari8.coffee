@@ -17,9 +17,9 @@ module.exports = (robot) ->
   delimitBy30 = ->
     m = moment()
     min = +m.format('m')
-    switch (min)
-      when (min <= 5) then m.subtract(1, 'hours').minutes(30)
-      when (min <= 35) then m.minutes(0)
+    switch
+      when min <= 5 then m.subtract(1, 'hours').minutes(30)
+      when min <= 35 then m.minutes(0)
       else m.minutes(30)
 
   robot.respond /himawari8$/i, (msg) ->
