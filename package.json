@@ -1,6 +1,6 @@
 {
   "name": "hubot-himawari8",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Hubot script for getting Himawari 8 satellite image via Japan Meteorological Agency",
   "main": "index.js",
   "scripts": {
